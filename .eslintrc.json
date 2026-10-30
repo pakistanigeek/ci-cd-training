@@ -1,0 +1,10 @@
+{
+  "env": { "node": true, "jest": true },
+  "extends": "eslint:recommended",
+  "parserOptions": { "ecmaVersion": "latest" },
+  "rules": {
+    "semi": ["error", "always"],
+    "no-unused-vars": "error",
+    "quotes": ["error", "single"]
+  }
+}
